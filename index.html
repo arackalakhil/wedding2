@@ -170,7 +170,7 @@
 							<p style="font-size: 16px; color: #333;">With hearts full of joy, we, <strong>Mrs. Jaya  & Late Radhakrishnan </strong>, invite you and your cherished family to share in the joy of our daughter <strong>Athira's</strong> marriage to <strong>Pramod</strong>, son of <strong>Mrs. Sudha Kumari &amp; Mr. Kumaran Nair </strong>. The auspicious ceremony will take place on <strong>Monday, November 19, 2023 (1199 Vishakam 3)</strong> . Your presence will make this occasion even more special.</p>
 							
 							<p style="font-size: 16px; color: #555;">Warm regards,<br>
-							<strong>Arathi </strong></p></i>
+							<strong>Abhijith, Arathi, Roshan, Hari</strong></p></i>
 				</div>
 			</div>
 		</div>
@@ -219,7 +219,7 @@
 											<i class="icon-clock"></i> <span>
 												Muhurtham 11:46 am - 12:08 pm </span>
 										</div>
-										<div class="event-col"> <i class="icon-calendar"></i> <span>Sunday,28
+										<div class="event-col"> <i class="icon-calendar"></i> <span>Sunday,19
 											November 2023 </span> </div>
 										<p>
 											<label style="font-weight:normal; font-size:22px;">
@@ -515,7 +515,11 @@
 			</div>
 		</div>
 
-
+		<!-- MUTE BUTTON -->
+		<a id="mute" href="#/" onclick="mute()" class="floatmute">
+			<i color="#fff" class="fa fa-volume-up my-float padding:50%"></i>
+		</a>
+		<!-- MUTE BUTTON -->
 		<footer>
 			<p> &copy; Made with love <a href="tel:+918138873820"  > 8138873820</a> 
 
@@ -592,7 +596,7 @@
 
 	<script>
 		document.addEventListener("DOMContentLoaded", function (event) {
-			let audio = document.getElementById("audio");
+			let audio = document.getElementById("");
 			let button = document.getElementById('mute');
 			if (-localStorage.getItem('mute')) {
 				audio.muted = true;
